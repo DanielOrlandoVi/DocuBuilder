@@ -18,7 +18,7 @@ public abstract class CamionBuilder {
         Camion =new camion();
     }
     
-    public abstract String buildmotor();
+    public abstract String builmotor();
     public abstract String builcarroceria();
     public abstract String builruedas();
 }

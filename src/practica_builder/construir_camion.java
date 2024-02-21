@@ -23,7 +23,7 @@ public class construir_camion {
     
     public void fabrica_camion(){
         nuevo.ConstruirCamion();
-        nuevo.buildmotor();
+        nuevo.builmotor();
         nuevo.builcarroceria();
         nuevo.builruedas();
     }

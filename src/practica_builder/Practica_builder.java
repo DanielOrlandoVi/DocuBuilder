@@ -59,11 +59,11 @@ public class Practica_builder {
 
         
         if (opcion == 1){
-            JOptionPane.showMessageDialog(null, "El motor del camion uno es: " + camionuno.buildmotor() + "\n" + "La carroceria del camion uno es: " + camionuno.builcarroceria() + 
+            JOptionPane.showMessageDialog(null, "El motor del camion uno es: " + camionuno.builmotor() + "\n" + "La carroceria del camion uno es: " + camionuno.builcarroceria() + 
                     "\n" + "Las ruedas del camion uno son: " + camionuno.builruedas());
         }
         if (opcion == 2){
-            JOptionPane.showMessageDialog(null, "El motor del camion dos es: " + camiondos.buildmotor() + "\n"+"La carroceria del camion uno es: " + camiondos.builcarroceria() + 
+            JOptionPane.showMessageDialog(null, "El motor del camion dos es: " + camiondos.builmotor() + "\n"+"La carroceria del camion uno es: " + camiondos.builcarroceria() + 
                     "\n" + "Las ruedas del camion uno son: " + camiondos.builruedas());
         }
         if (opcion == 3){

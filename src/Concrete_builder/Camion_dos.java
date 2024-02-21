@@ -10,7 +10,7 @@ import Productos .*;
 public class Camion_dos extends CamionBuilder{
    
      @Override
-   public String buildmotor(){
+   public String builmotor(){
        String motor = "Motor normal";
        return motor;
    }
