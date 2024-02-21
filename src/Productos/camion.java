@@ -19,12 +19,23 @@ public class camion {
         this.motor=motor;
     }
     
+    public String getMotor(){
+        return motor;
+    }
+    
     public void setcarroceria(String carroceria){
         this.carroceria=carroceria;
     }
     
+    public String getCarroceria(){
+        return carroceria;
+    }
+    
     public void setruedas(String ruedas){
-        
         this.ruedas=ruedas;
+    }
+    
+    public String getRuedas(){
+        return ruedas;
     }
 }

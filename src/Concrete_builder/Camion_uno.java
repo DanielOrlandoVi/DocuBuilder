@@ -14,17 +14,20 @@ import Productos .*;
 public class Camion_uno extends CamionBuilder{
     
    @Override
-   public String builmotor(){
-       return "Motor cummis";
+   public String buildmotor(){
+       String motor = "Motor cummis";
+       return motor;
    }
    
    @Override
    public String builcarroceria(){
-       return "De lujo";
+       String carroceria = "De lujo";
+       return carroceria;
    }
    
    @Override
    public String builruedas(){
-        return "Gan tamaño";
+       String ruedas = "Gan tamaño";  
+       return ruedas;
    }
 }

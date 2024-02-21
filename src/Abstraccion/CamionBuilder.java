@@ -11,7 +11,6 @@ public abstract class CamionBuilder {
     protected camion Camion;//objeto de la clase producto
     
     public camion getcamion(){
-     
         return Camion;
     }
     
@@ -19,7 +18,7 @@ public abstract class CamionBuilder {
         Camion =new camion();
     }
     
-    public abstract String builmotor();
+    public abstract String buildmotor();
     public abstract String builcarroceria();
     public abstract String builruedas();
 }
