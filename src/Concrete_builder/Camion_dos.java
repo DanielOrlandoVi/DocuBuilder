@@ -7,22 +7,39 @@ package Concrete_builder;
  */
 import Abstraccion.*;
 import Productos .*;
-public class Camion_dos extends CamionBuilder{
+
+
+/**
+ * La clase Camion_dos es una implementación concreta de CamionBuilder.
+ * Define la construcción de otro tipo específico de camión.
+ */
+public class Camion_dos extends CamionBuilder {
    
-     @Override
-   public String builmotor(){
-       return "Motor normal";
-   }
+    /**
+     * Método para construir el motor del camión.
+     * @return La descripción del motor construido.
+     */
+    @Override
+    public String builmotor() {
+        return "Motor normal"; // Retorna el tipo de motor para el Camion_dos
+    }
    
-   @Override
-   public String builcarroceria(){
-       return "corriente";
-   }
+    /**
+     * Método para construir la carrocería del camión.
+     * @return La descripción de la carrocería construida.
+     */
+    @Override
+    public String builcarroceria() {
+        return "Corriente"; // Retorna el tipo de carrocería para el Camion_dos
+    }
    
-   @Override
-   public String builruedas(){
-       return "medianas";
-   }
-    
-    
+    /**
+     * Método para construir las ruedas del camión.
+     * @return La descripción de las ruedas construidas.
+     */
+    @Override
+    public String builruedas() {
+        return "Medianas"; // Retorna el tipo de ruedas para el Camion_dos
+    }  
 }
+
